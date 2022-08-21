@@ -1,0 +1,23 @@
+/* 
+* **The first element**: a black background and 
+white text
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a 
+list of fonts containing `Helvetica` and `Times 
+New Roman`, with `sans-serif` as a fallback 
+
+*/
+
+.clicker1 {
+  background-color: black;
+  color: white
+}
+
+.clicker2 {
+  background-color: yellow;
+}
+
+.clicker1, .clicker2 {
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman', sans-serif;
+}
